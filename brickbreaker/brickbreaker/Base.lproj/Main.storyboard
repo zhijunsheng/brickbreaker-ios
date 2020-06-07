@@ -14,13 +14,30 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bVK-Cc-9uM" customClass="BreakerView" customModule="brickbreaker" customModuleProvider="target">
+                                <rect key="frame" x="20" y="20" width="728" height="728"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="bVK-Cc-9uM" secondAttribute="height" multiplier="1:1" id="pjE-KY-gWJ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bVK-Cc-9uM" secondAttribute="trailing" constant="20" id="8wv-EF-Jgy"/>
+                            <constraint firstItem="bVK-Cc-9uM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="LaJ-HE-1L6"/>
+                            <constraint firstItem="bVK-Cc-9uM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="QJ3-pq-T87"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="breakerView" destination="bVK-Cc-9uM" id="Jot-o9-Sm1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-57" y="120"/>
+            <point key="canvasLocation" x="-57.03125" y="119.53124999999999"/>
         </scene>
     </scenes>
 </document>
