@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A10B3AAB24981C6A00A0C4BB /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B3AAA24981C6A00A0C4BB /* BoardView.swift */; };
 		E718666E248C6E25003A62F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E718666D248C6E25003A62F8 /* AppDelegate.swift */; };
 		E7186670248C6E25003A62F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E718666F248C6E25003A62F8 /* SceneDelegate.swift */; };
 		E7186672248C6E25003A62F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7186671248C6E25003A62F8 /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A10B3AAA24981C6A00A0C4BB /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
 		E718666A248C6E25003A62F8 /* brickbreaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brickbreaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E718666D248C6E25003A62F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E718666F248C6E25003A62F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			children = (
 				E718666D248C6E25003A62F8 /* AppDelegate.swift */,
 				E718666F248C6E25003A62F8 /* SceneDelegate.swift */,
+				A10B3AAA24981C6A00A0C4BB /* BoardView.swift */,
 				E7186671248C6E25003A62F8 /* ViewController.swift */,
 				E7186673248C6E25003A62F8 /* Main.storyboard */,
 				E7186676248C6E2C003A62F8 /* Assets.xcassets */,
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7186672248C6E25003A62F8 /* ViewController.swift in Sources */,
+				A10B3AAB24981C6A00A0C4BB /* BoardView.swift in Sources */,
 				E718666E248C6E25003A62F8 /* AppDelegate.swift in Sources */,
 				E7186670248C6E25003A62F8 /* SceneDelegate.swift in Sources */,
 			);
