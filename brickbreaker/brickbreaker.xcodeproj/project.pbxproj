@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		752C2E3E24999BBD00915049 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C2E3D24999BBD00915049 /* CanvasView.swift */; };
 		E718666E248C6E25003A62F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E718666D248C6E25003A62F8 /* AppDelegate.swift */; };
 		E7186670248C6E25003A62F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E718666F248C6E25003A62F8 /* SceneDelegate.swift */; };
 		E7186672248C6E25003A62F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7186671248C6E25003A62F8 /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		752C2E3D24999BBD00915049 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 		E718666A248C6E25003A62F8 /* brickbreaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brickbreaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E718666D248C6E25003A62F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E718666F248C6E25003A62F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				E718666D248C6E25003A62F8 /* AppDelegate.swift */,
 				E718666F248C6E25003A62F8 /* SceneDelegate.swift */,
 				E7186671248C6E25003A62F8 /* ViewController.swift */,
+				752C2E3D24999BBD00915049 /* CanvasView.swift */,
 				E7186673248C6E25003A62F8 /* Main.storyboard */,
 				E7186676248C6E2C003A62F8 /* Assets.xcassets */,
 				E7186678248C6E2C003A62F8 /* LaunchScreen.storyboard */,
@@ -202,6 +205,7 @@
 			files = (
 				E7186672248C6E25003A62F8 /* ViewController.swift in Sources */,
 				E718666E248C6E25003A62F8 /* AppDelegate.swift in Sources */,
+				752C2E3E24999BBD00915049 /* CanvasView.swift in Sources */,
 				E7186670248C6E25003A62F8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
