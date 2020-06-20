@@ -2,8 +2,8 @@
 //  SceneDelegate.swift
 //  brickbreaker
 //
-//  Created by daobao on 2020/6/7.
-//  Copyright © 2020 daobao. All rights reserved.
+//  Created by Peter Shi on 2020/6/12.
+//  Copyright © 2020 Gold Thumb. All rights reserved.
 //
 
 import UIKit
