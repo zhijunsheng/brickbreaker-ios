@@ -17,8 +17,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         Timer.scheduledTimer(withTimeInterval: 0.025, repeats: true) { (timer) in
-            self.canvasView.ballX += self.addX * 15
-            self.canvasView.ballY += self.addY * 15
+//            if self.canvasView.ballY <= self.canvasView.bounds.height - 15 {
+                self.canvasView.ballX += self.addX * 15
+                self.canvasView.ballY += self.addY * 15
+//            }
+            
             if self.canvasView.ballX <= 0 {
                 self.addX = 1
             }
@@ -35,10 +38,12 @@ class ViewController: UIViewController {
                 self.addY = -1
             }
             
+            if self.canvasView.ballX >= self.canvasView.paddleX - 75 && self.canvasView.ballY >= self.canvasView.paddleY && self.canvasView.ballX <= self.canvasView.paddleX + 75 && self.canvasView.ballY <= self.canvasView.paddleY + 40 {
+                    self.addY = -self.addY
+            }
+            
             self.canvasView.setNeedsDisplay()
         }
     }
-
-
 }
 
